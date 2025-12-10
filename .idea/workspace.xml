@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b272f5d-d552-465e-966e-fa0bc2b2d4dd" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci_pipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci_pipeline.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmoothieSystem/backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmoothieSystem/backend/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmoothieSystem/backend/smoothie.db" beforeDir="false" afterPath="$PROJECT_DIR$/SmoothieSystem/backend/smoothie.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmoothieSystem/backend/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmoothieSystem/backend/test_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MyOrders.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MyOrders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Notifications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Order.js" afterDir="false" />
-    </list>
+    <list default="true" id="6b272f5d-d552-465e-966e-fa0bc2b2d4dd" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
