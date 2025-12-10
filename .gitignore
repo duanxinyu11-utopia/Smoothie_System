@@ -1,0 +1,18 @@
+# 忽略 Python 垃圾文件
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 忽略 PyCharm 配置
+.idea/
+
+# 忽略 数据库文件 (由代码生成，不需要上传)
+smoothie.db
+backend/smoothie.db
+
+# 忽略 前端垃圾文件 (最重要！！！)
+frontend/node_modules/
+frontend/build/
+frontend/.pnp
+.DS_Store
