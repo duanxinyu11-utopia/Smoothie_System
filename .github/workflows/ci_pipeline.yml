@@ -1,0 +1,37 @@
+name: Smoothie System CI/CD
+
+# 触发条件：每次推送到 main 分支时运行
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. 拉取代码
+    - uses: actions/checkout@v3
+
+    # 2. 设置 Python 环境 (Python 3.12)
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.12"
+
+    # 3. 安装依赖 (Flask, Pytest)
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flask flask-cors pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    # 4. 运行自动化测试
+    # 注意：我们要进入 backend 文件夹去跑测试，并且告诉 python 这里的路径
+    - name: Run Unit Tests with Pytest
+      run: |
+        cd SmoothieSystem/backend
+        export PYTHONPATH=$PYTHONPATH:$(pwd)
+        pytest test_api.py
